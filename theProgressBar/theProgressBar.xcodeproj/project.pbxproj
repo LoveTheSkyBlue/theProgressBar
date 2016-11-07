@@ -15,6 +15,7 @@
 		674AA8471DD0656D00B0B56B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 674AA8451DD0656D00B0B56B /* LaunchScreen.storyboard */; };
 		674AA8521DD0656D00B0B56B /* theProgressBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 674AA8511DD0656D00B0B56B /* theProgressBarTests.m */; };
 		674AA85D1DD0656D00B0B56B /* theProgressBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 674AA85C1DD0656D00B0B56B /* theProgressBarUITests.m */; };
+		674AA86C1DD0660B00B0B56B /* SProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 674AA86B1DD0660B00B0B56B /* SProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		674AA8581DD0656D00B0B56B /* theProgressBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = theProgressBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		674AA85C1DD0656D00B0B56B /* theProgressBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = theProgressBarUITests.m; sourceTree = "<group>"; };
 		674AA85E1DD0656D00B0B56B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		674AA86A1DD0660B00B0B56B /* SProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SProgressView.h; sourceTree = "<group>"; };
+		674AA86B1DD0660B00B0B56B /* SProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		674AA8361DD0656D00B0B56B /* theProgressBar */ = {
 			isa = PBXGroup;
 			children = (
+				674AA86A1DD0660B00B0B56B /* SProgressView.h */,
+				674AA86B1DD0660B00B0B56B /* SProgressView.m */,
 				674AA83A1DD0656D00B0B56B /* AppDelegate.h */,
 				674AA83B1DD0656D00B0B56B /* AppDelegate.m */,
 				674AA83D1DD0656D00B0B56B /* ViewController.h */,
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				674AA83F1DD0656D00B0B56B /* ViewController.m in Sources */,
+				674AA86C1DD0660B00B0B56B /* SProgressView.m in Sources */,
 				674AA83C1DD0656D00B0B56B /* AppDelegate.m in Sources */,
 				674AA8391DD0656D00B0B56B /* main.m in Sources */,
 			);
